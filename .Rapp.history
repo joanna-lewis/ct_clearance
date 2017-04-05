@@ -338,42 +338,6 @@ fit <- stan(file = 'chlamydia_two_exponentials_men.stan', data = chlamydia_dat, 
 #####################
 #
 fit <- stan(file = 'chlamydia_two_exponentials_men.stan', data = chlamydia_dat, #
-            iter = 10, init=list(init0), chains = 1, seed=12345)
-#####################
-# run the model#
-#####################
-#
-fit <- stan(file = 'chlamydia_two_exponentials_men.stan', data = chlamydia_dat, #
-            iter = 10, init=list(init0), chains = 1, seed=12345)
-#####################
-# run the model#
-#####################
-#
-fit <- stan(file = 'chlamydia_two_exponentials_men.stan', data = chlamydia_dat, #
-            iter = 10, init=list(init0), chains = 1, seed=12345)
-#####################
-# run the model#
-#####################
-#
-fit <- stan(file = 'chlamydia_two_exponentials_men.stan', data = chlamydia_dat, #
-            iter = 10, init=list(init0), chains = 1, seed=12345)
-#####################
-# run the model#
-#####################
-#
-fit <- stan(file = 'chlamydia_two_exponentials_men.stan', data = chlamydia_dat, #
-            iter = 10, init=list(init0), chains = 1, seed=12345)
-#####################
-# run the model#
-#####################
-#
-fit <- stan(file = 'chlamydia_two_exponentials_men.stan', data = chlamydia_dat, #
-            iter = 1, init=list(init0), chains = 1, seed=12345)
-#####################
-# run the model#
-#####################
-#
-fit <- stan(file = 'chlamydia_two_exponentials_men.stan', data = chlamydia_dat, #
             iter = 1, init=list(init0), chains = 1, seed=12345)
 load("/Users/Joanna/Documents/papers/duration_infection_men/ct_duration/data_m.RData")
 ls()
@@ -394,3 +358,5 @@ apply(md_sim,2,mean)
 apply(md_sim,2,median)
 apply(md_sim, 2, quantile, p=0.025)
 apply(md_sim, 2, quantile, p=0.975)
+load("/Users/Joanna/Documents/papers/duration_infection_men/ct_duration/data_f.RData")
+rm(list=ls())
