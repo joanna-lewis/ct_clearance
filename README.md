@@ -10,7 +10,7 @@ This repository contains code and other supplementary information for evidence s
 	- Jupyter notebooks for running the STAN models and interpreting output, and
 	- A directory named `results` containing saved output from the Jupyter notebooks.
 	
-Three notebooks are provided:
+Three notebooks are provided in the `analysis` directory:
 
 * `results_2comp.ipynb` runs a model in which durations of chlamydia infection have a two-component mixture-of-exponentials distribution.
 * `model_comparison.ipynb` compares the fit of the two-component mixture model with the fits of various alternative models.
